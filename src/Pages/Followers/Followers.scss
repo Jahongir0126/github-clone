@@ -1,0 +1,61 @@
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    
+    border-bottom: 1px solid rgba(146, 146, 146, 0.466);
+
+    &__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &__img {
+            border-radius: 50%;
+            width: 50px;
+        }
+
+        &__name {
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            margin-right: 60px;
+            &:hover{
+                color: black;
+            }
+
+        }
+
+        
+
+        &__company,
+        &__country {
+            font-weight: 300;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.889);
+            margin-right: 20px;
+        }
+        &__company > svg, &__country >svg{
+            margin-right: 5px;
+        }
+
+    }
+
+    &__wrapper {
+        margin-left: 30px;
+        row-gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 200px;
+    }
+
+    &__btn {
+        font-size: 14px;
+        padding: 3px 12px;
+        border-radius: 5px;
+        border: 1px solid rgba(132, 132, 132, 0.734);
+    }
+}

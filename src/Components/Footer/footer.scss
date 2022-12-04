@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 90px;
+    padding: 20px 0;    
+    border-top: 1px solid rgba(167, 167, 167, 0.685);
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & p {
+            margin-left: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+    }
+
+    &__links {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        
+
+        & a {
+            font-size: 12px;
+            font-weight: 300;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+
+        }
+    }
+}

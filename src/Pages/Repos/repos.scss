@@ -1,0 +1,50 @@
+.repos{
+    width: 100%;
+
+    padding: 20px 10px;
+    border-top:  0.5px solid rgb(183, 183, 183);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        & a{
+            font-weight: 500;
+            font-size: 20px;
+            color: rgb(25, 139, 253);
+            text-decoration: none;
+            margin-right: 25px;
+        }
+        & >span{
+            
+            color: rgb(85, 85, 85);
+            padding: 0px 8px;
+            font-weight: 400;
+            border-radius: 10px;
+            border:1px solid  rgb(223, 223, 223);
+        }
+    }
+    &__language{
+        font-size: 12px;
+        margin-top: 10px;
+        color: rgb(157, 157, 157);
+        &> span+span{
+            margin-left: 20px;
+        }
+    }
+
+    &__star{
+        padding: 0px 10px;
+        background-color: rgb(238, 238, 238);
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 5px;
+        &__count > svg {
+            margin-right: 4px;
+        }
+
+
+
+        & svg{
+            margin-right: 7px;
+        }
+    }
+}

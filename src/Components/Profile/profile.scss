@@ -1,0 +1,62 @@
+.profile__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // justify-content: center;
+
+    .profile {
+        margin-top: -30px;
+        margin-left: 80px;
+        &__img{
+            z-index: 8;
+            position: relative;
+        }
+        &__userName {
+            font-size: 24px;
+        }
+
+        &__userLink {
+            font-size: 20px;
+            color: #0000005d;
+            font-weight: 300;
+            cursor: pointer;
+        }
+
+        &__bio {
+            font-size: 16px;
+            margin-top: 30px;
+            font-weight: 300;
+        }
+
+        & button {
+            width: 300px;
+            font-weight: 500;
+            margin: 20px 0;
+            border: 1px solid rgb(192, 192, 192);
+            background-color: rgba(229, 237, 237, 0.478);
+        }
+
+        &__link {
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .organizations {
+            margin-top: 40px;
+            & h4{
+                font-size: 16px;
+            }
+            & img{
+                width: 40px;margin-left: 4px;
+                border-radius: 7px;
+            }
+        }
+        & p{
+            margin-top: 10px;
+        }
+
+    }
+}
